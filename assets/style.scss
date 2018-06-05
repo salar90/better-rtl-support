@@ -1,0 +1,130 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/eot/IRANSansWeb_Bold.eot");
+  src: url("fonts/eot/IRANSansWeb_Bold.eot?#iefix") format("embedded-opentype"), url("fonts/woff2/IRANSansWeb_Bold.woff2") format("woff2"), url("fonts/woff/IRANSansWeb_Bold.woff") format("woff"), url("fonts/ttf/IRANSansWeb_Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("fonts/eot/IRANSansWeb_Medium.eot");
+  src: url("fonts/eot/IRANSansWeb_Medium.eot?#iefix") format("embedded-opentype"), url("fonts/woff2/IRANSansWeb_Medium.woff2") format("woff2"), url("fonts/woff/IRANSansWeb_Medium.woff") format("woff"), url("fonts/ttf/IRANSansWeb_Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/eot/IRANSansWeb_Light.eot");
+  src: url("fonts/eot/IRANSansWeb_Light.eot?#iefix") format("embedded-opentype"), url("fonts/woff2/IRANSansWeb_Light.woff2") format("woff2"), url("fonts/woff/IRANSansWeb_Light.woff") format("woff"), url("fonts/ttf/IRANSansWeb_Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url("fonts/eot/IRANSansWeb_UltraLight.eot");
+  src: url("fonts/eot/IRANSansWeb_UltraLight.eot?#iefix") format("embedded-opentype"), url("fonts/woff2/IRANSansWeb_UltraLight.woff2") format("woff2"), url("fonts/woff/IRANSansWeb_UltraLight.woff") format("woff"), url("fonts/ttf/IRANSansWeb_UltraLight.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/eot/IRANSansWeb.eot");
+  src: url("fonts/eot/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("fonts/woff2/IRANSansWeb.woff2") format("woff2"), url("fonts/woff/IRANSansWeb.woff") format("woff"), url("fonts/ttf/IRANSansWeb.ttf") format("truetype"); }
+
+body.rtl{
+  font-family: IRANSans;
+  button, input[type="button"],
+  input[type="reset"],
+  input[type="submit"],
+  input,
+  select,
+  textarea,
+  blockquote cite,
+  blockquote small,
+  .post-password-form label,
+  .main-navigation .menu-item-description,
+  .post-navigation .meta-nav, .post-navigation .post-title,
+  .pagination,
+  .image-navigation,
+  .comment-navigation,
+  .site-title,
+  .site-description,
+  .widget-title,
+  .widget_calendar caption,
+  .widget_rss .rss-date,
+  .widget_rss cite,
+  .author-heading,
+  .entry-footer,
+  .page-title,
+  .page-links,
+  .entry-caption,
+  .entry-title,
+  .comments-title,
+  .comment-reply-title,
+  .comment-metadata,
+  .pingback .edit-link,
+  .comment-list .reply a,
+  .comment-form label,
+  .comment-notes,
+  .comment-awaiting-moderation,
+  .logged-in-as, .form-allowed-tags,
+  .no-comments, .wp-caption-text,
+  .gallery-caption {
+    font-family: IRANSans;
+  }
+  &.theme-hueman{
+    .site-title{
+      float: right;
+    }
+    .site-description{
+      float: right;
+      margin-left:0;
+      margin-right:20px;
+    }
+    .widget>div>ul li a:before, .widget>ul li a:before, .widget>ul li:before, .widget_calendar caption:before{
+      margin-left: 6px;
+      margin-right:0;
+    }
+    .widget_meta>ul>li a:before {
+      content: "\f0d9";
+    }
+
+    .post-comments i{
+      margin-right:0;
+      margin-left:3px;
+    }
+    .image-caption, .page-title i{
+      margin-left:8px;
+      margin-right:0;
+    }
+    .post-tags a{
+      margin:0 0 2px 5px;
+    }
+    .comment-tabs li i, .commentlist .comment-author, .entry.woocommerce div.product .woocommerce-tabs ul.tabs li i{
+      margin-right:0;
+      margin-left:6px;
+    }
+    .comment-tabs li span{
+      margin-right:8px;
+      margin-left:0;
+    }
+    .commentlist .comment-author, .commentlist .comment-awaiting-moderation, .commentlist .comment-meta{
+      float: right;
+    }
+    .commentlist li, .pinglist li{
+      padding-left:0;
+      padding-right:60px;
+    }
+    .commentlist .avatar{
+      left:auto;
+      right:-60px;
+    }
+    .commentlist li li.bypostauthor>.comment-body:after, .commentlist li li.comment-author-admin>.comment-body:after{
+      left:auto;
+      right:-26px;
+    }
+  }
+
+}

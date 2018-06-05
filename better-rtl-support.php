@@ -16,3 +16,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 require_once "class-better-rtl-support.php";
+
+$BRTLS = new better_RTL_support();

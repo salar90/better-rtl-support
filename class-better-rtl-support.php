@@ -3,10 +3,10 @@ class better_RTL_support{
     
     function __construct()
     {
-
+        $this->assign_hooks();
     }
-    function assign_hooks(){
 
+    function assign_hooks(){
         add_filter("body_class",[$this,"add_body_classes"]);
         add_action( 'wp_enqueue_scripts', [$this,"enqueue_styles"],50 );
     }

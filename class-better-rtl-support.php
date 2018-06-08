@@ -15,6 +15,8 @@ class better_RTL_support{
             add_action( 'admin_init', array( $this, 'settings_init' ) );
         }
 
+        add_action("wp_head",[$this,"display_license_header"]);
+
     }
 
 
@@ -49,6 +51,13 @@ class better_RTL_support{
         include __DIR__ . "/font-faces/" . $font_face . ".php";
         $css = ob_get_clean();
         return $css;
+    }
+
+    function display_license_header(){
+        $license = trim(esc_html(get_option("font_iransans_license")));
+        if(!empty($license)){
+            echo "\n<meta name=\"fontiran.com:license\" content=\"$license\">\n";
+        }
     }
 
 }

@@ -1,3 +1,9 @@
+/*
+IRAN Sans-serif fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------- 
+This set of fonts are used in this project under the license: <?php echo $license_code ?> 
+---------------------------------------------------------------------
+*/ 
 @font-face {
   font-family: IRANSans;
   font-style: normal;

@@ -47,10 +47,16 @@ class better_RTL_support{
     function generate_font_face_css($font_face){
         //Todo: sanitize $font_face, for now static value won't harm.
         ob_start();
+        
         $face_path = get_option("font_iransans_path");
         $license_code = trim(esc_html(get_option("font_iransans_license")));
-        include __DIR__ . "/font-faces/" . $font_face . ".php";
+        
+        if( !empty( $face_path ) ){
+            include __DIR__ . "/font-faces/" . $font_face . ".php";
+        }
+
         $css = ob_get_clean();
+
         return $css;
     }
 

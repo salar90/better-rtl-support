@@ -36,6 +36,7 @@ html[lang="ur"] body.rtl
   .entry-title,
   .comments-title,
   .comment-reply-title,
+  .comment-reply-link,
   .comment-metadata,
   .pingback .edit-link,
   .comment-list .reply a,
@@ -55,6 +56,15 @@ html[lang="ur"] body.rtl
       float: right;
       margin-left:0;
       margin-right:20px;
+    }
+
+    .toggle-search{
+      right: auto;
+      left: 0;
+    }
+    .search-expand{
+      right: auto;
+      left: 0;
     }
     .widget>div>ul li a:before, .widget>ul li a:before, .widget>ul li:before, .widget_calendar caption:before{
       margin-left: 6px;
@@ -98,6 +108,45 @@ html[lang="ur"] body.rtl
       left:auto;
       right:-26px;
     }
+
+    @media only screen and (min-width: 720px){
+      .nav{
+        >li > a{
+          &::after{
+            margin-right: 6px;
+            margin-left: 0;
+            content: "\f0d7";
+          }
+          &:only-child::after{
+            content: "";
+            margin: 0;
+          }
+        }
+        
+        ul{
+          left: auto;
+          right: 0;
+          li > a{
+            &::after{
+              content: "\f0d9";
+              float: left;
+            }
+            &:only-child::after{
+              content: "";
+              margin: 0;
+            }
+          }
+          
+          ul{
+            left: auto;
+            right: 180px;
+            
+          }
+        }
+      }
+    }
+    
+
   }
 
 }

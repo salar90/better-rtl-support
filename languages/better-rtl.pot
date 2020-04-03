@@ -1,0 +1,42 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Better RTL Support\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-03 20:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.2; wp-5.4"
+
+#. Name of the plugin
+msgid "Better RTL Support"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://salar.one"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/salar90/better-rtl-support"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Make Themes & plugins more readable in Persian language by changing fonts "
+"and tweaking styles."
+msgstr ""
+
+#: class-better-rtl-support.php:24 settings-page.php:8
+msgid "RTL Settings"
+msgstr ""
+
+#. Author of the plugin
+msgid "Salar Gholizadeh"
+msgstr ""

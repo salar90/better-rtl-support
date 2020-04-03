@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Better RTL Support\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-03 20:12+0000\n"
+"PO-Revision-Date: 2020-04-03 20:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: فارسی\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.2; wp-5.4"
+
+#. Name of the plugin
+msgid "Better RTL Support"
+msgstr "پشتیبانی بهتر از زبان های راست به چپ"
+
+#. Author URI of the plugin
+msgid "http://salar.one"
+msgstr "http://salar.one"
+
+#. URI of the plugin
+msgid "https://github.com/salar90/better-rtl-support"
+msgstr "https://github.com/salar90/better-rtl-support"
+
+#. Description of the plugin
+msgid ""
+"Make Themes & plugins more readable in Persian language by changing fonts "
+"and tweaking styles."
+msgstr ""
+"بهبود خوانایی و نمایش پوسته‌ها و افزونه ها در زبان فارسی با تغییر در فونت‌ها "
+"و استایل‌ها."
+
+#: class-better-rtl-support.php:24 settings-page.php:8
+msgid "RTL Settings"
+msgstr "راست به چپ"
+
+#. Author of the plugin
+msgid "Salar Gholizadeh"
+msgstr "سالار قلی‌زاده"

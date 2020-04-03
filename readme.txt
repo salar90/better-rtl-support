@@ -2,8 +2,13 @@
 Contributors: salar6990
 Tags: rtl, fontiran, fonts
 Requires at least: 4.6
+<<<<<<< HEAD
 Tested up to: 4.9.5
 Stable tag: 1.0.2
+=======
+Tested up to: 5.2.2
+Stable tag: 1.0.6
+>>>>>>> add all
 Requires PHP: 5.2.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -14,16 +19,28 @@ Wordpress plugin for better Right to Left support for widely used themes and plu
 
 پشتیبانی بهتر از زبان های راست به چپ برای وردپرس
 
+<<<<<<< HEAD
 این پلاگین به شما کمک می کند تا با تم های معمول وردپرس نظیر تم های پیش فرض وردپرس (دو هزار و پانزده و ...) و برخی تم های دیگر به صورت صحیح تر و زیباتر نمایش داده شوند.
+=======
+این پلاگین به شما کمک می کند تا با تم های معمول وردپرس نظیر تم های پیش فرض وردپرس (سری دو هزار) و برخی تم های دیگر به صورت صحیح تر و زیباتر نمایش داده شوند.
+>>>>>>> add all
 
  برای استفاده از فونت ایران سنس بایستی فونت ها را خریداری و آپلود کنید سپس آدرس آن را در تنظیمات پلاگین وارد کنید.
 
 لیست پوسته‌های تست شده:
 
+<<<<<<< HEAD
 *   twenty fifteen
 *   twentysixteen
 *   twentyseventeen
 *   hueman
+=======
+*   Twenty Nineteen (دو هزار و نوزده)
+*   Twenty Seventeen (دوهزاروهفده)
+*   Twenty Sixteen (دوهزار و شانزده)
+*   Twenty Fifteen (دو هزار و پانزده)
+*   Hueman
+>>>>>>> add all
 
 پروژه در گیت هاب: [Better RTL Support](https://github.com/salar90/better-rtl-support)
 
@@ -48,5 +65,18 @@ Wordpress plugin for better Right to Left support for widely used themes and plu
 
 == Changelog ==
 
+<<<<<<< HEAD
+=======
+= 1.0.6 =
+* Hueman Search position
+
+= 1.0.5 =
+* Hueman Nav menu
+
+= 1.0.2 =
+* tested with WordPress 5.2.2
+* fox comment reply link style
+
+>>>>>>> add all
 = 1.0 =
 * first release.

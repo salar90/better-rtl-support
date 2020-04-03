@@ -3,7 +3,7 @@ Contributors: salar6990
 Tags: rtl, fontiran, fonts
 Requires at least: 4.6
 Tested up to: 5.2.2
-Stable tag: 1.0.6
+Stable tag: 1.0.10
 Requires PHP: 5.2.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -48,6 +48,9 @@ Wordpress plugin for better Right to Left support for widely used themes and plu
 
 
 == Changelog ==
+
+= 1.0.10 =
+* Added Translation files
 
 = 1.0.6 =
 * Hueman Search position

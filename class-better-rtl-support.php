@@ -7,6 +7,9 @@ class better_RTL_support{
     }
 
     function assign_hooks(){
+
+        add_action('init', [$this, 'load_textdomain']);
+
         add_filter("body_class",[$this,"add_body_classes"]);
         add_action( 'wp_enqueue_scripts', [$this,"enqueue_styles"],50 );
 
@@ -17,6 +20,11 @@ class better_RTL_support{
 
         add_action("wp_head",[$this,"display_license_header"]);
 
+    }
+
+    function load_textdomain()
+    {
+        load_plugin_textdomain( 'better-rtl', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
     }
 
 

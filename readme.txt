@@ -2,7 +2,7 @@
 Contributors: salar6990
 Tags: rtl, fontiran, fonts
 Requires at least: 4.6
-Tested up to: 5.2.2
+Tested up to: 6.0.2
 Stable tag: 1.0.10
 Requires PHP: 5.6
 License: GPLv3 or later
@@ -25,6 +25,7 @@ Wordpress plugin for better Right to Left support for widely used themes and plu
 *   Twenty Sixteen (دوهزار و شانزده)
 *   Twenty Fifteen (دو هزار و پانزده)
 *   Hueman
+*   Astra(soon)
 
 پروژه در گیت هاب: [Better RTL Support](https://github.com/salar90/better-rtl-support)
 

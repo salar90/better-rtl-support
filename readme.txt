@@ -1,9 +1,9 @@
 === Better RTL Support ===
 Contributors: salar6990
-Tags: rtl, fontiran, fonts
+Tags: rtl, fonts, farsi, persian, فونت وزیر, فونت, فارسی
 Requires at least: 4.6
-Tested up to: 6.0.2
-Stable tag: 1.0.10
+Tested up to: 6.3.1
+Stable tag: 2.0
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -14,18 +14,22 @@ Wordpress plugin for better Right to Left support for widely used themes and plu
 
 پشتیبانی بهتر از زبان های راست به چپ برای وردپرس
 
-این پلاگین به شما کمک می کند تا با تم های معمول وردپرس نظیر تم های پیش فرض وردپرس (سری دو هزار) و برخی تم های دیگر به صورت صحیح تر و زیباتر نمایش داده شوند.
+این پلاگین به شما کمک می کند تا با تم های معمول و پر طرفدار وردپرس نظیر تم های پیش فرض وردپرس، آسترا، هیومن و برخی تم های دیگر به صورت صحیح تر و زیباتر نمایش داده شوند.
 
- برای استفاده از فونت ایران سنس بایستی فونت ها را خریداری و آپلود کنید سپس آدرس آن را در تنظیمات پلاگین وارد کنید.
+از نسخه ۲ به بعد فونت فونت وزیرمتن جیگزین فونت ایران‌سنس شده تا کاربران نیازی به خریداری لایسنس نداشته باشند.
+فونت وزیرمتن حاصل تلاش و زحمات صابر راستی‌کردار است که در صورت تمایل از [صفحه پروژه آن](https://rastikerdar.github.io/vazirmatn/fa) می‌توانید دونیت کنید.
 
 لیست پوسته‌های تست شده:
 
+*   Astra  (آسترا)
+*   Hueman (هیومن)
+*   Twenty Twenty Three (دو هزار و بیست و سه)
+*   Twenty Twenty Two (دو هزار و بیست و دو)
+*   Twenty Twenty (دو هزار و بیست)
 *   Twenty Nineteen (دو هزار و نوزده)
 *   Twenty Seventeen (دوهزاروهفده)
 *   Twenty Sixteen (دوهزار و شانزده)
 *   Twenty Fifteen (دو هزار و پانزده)
-*   Hueman
-*   Astra(soon)
 
 پروژه در گیت هاب: [Better RTL Support](https://github.com/salar90/better-rtl-support)
 
@@ -38,17 +42,13 @@ Wordpress plugin for better Right to Left support for widely used themes and plu
 1. در قسمت نمایش>RTL Settings تنظیمات دلخواه خود را اعمال کنید.
 
 
-== Frequently Asked Questions ==
-
-= فونت ایران سنس را از کجا خریداری کنم؟ =
-
-برای خرید فونت ایرانسنس، به وب سایت fontiran.com مراجعه کنید.
-
-
-== Screenshots ==
-
-
 == Changelog ==
+
+= 2.0 =
+* Switch from Iransans to Vazirmatn free font
+* Updated Hueman social network display
+* fixed some issues with default themes
+* checked compatibility with WordPress 6.3.1
 
 = 1.0.10 =
 * Added Translation files

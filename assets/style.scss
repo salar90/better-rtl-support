@@ -7,7 +7,7 @@ html[lang="haz"] body.rtl,
 html[lang="ps"] body.rtl,
 html[lang="ur"] body.rtl
 {
-  font-family: IRANSans , Tahoma, Arial, sans-serif;
+  font-family: var(--brtls-font-text);
   button, input[type="button"],
   input[type="reset"],
   input[type="submit"],
@@ -16,6 +16,8 @@ html[lang="ur"] body.rtl
   textarea,
   blockquote cite,
   blockquote small,
+  h1, h2, h3, h4, h5, h6,
+  ul, ol,
   .post-password-form label,
   .main-navigation .menu-item-description,
   .post-navigation .meta-nav, .post-navigation .post-title,
@@ -45,8 +47,11 @@ html[lang="ur"] body.rtl
   .comment-awaiting-moderation,
   .logged-in-as, .form-allowed-tags,
   .no-comments, .wp-caption-text,
+  .entry-content p,
+  .wp-block-post-title,
+  .wp-block-site-title,
   .gallery-caption {
-    font-family: IRANSans;
+    font-family: var(--brtls-font-text);
   }
   &.theme-hueman{
     .site-title{
@@ -56,6 +61,12 @@ html[lang="ur"] body.rtl
       float: right;
       margin-left:0;
       margin-right:20px;
+    }
+    .social-links{
+      float: left;
+    }
+    .sidebar-top p{
+      float: right;
     }
 
     .toggle-search{

@@ -15,15 +15,3 @@
   font-style: normal;
   font-display: swap;
 }
-
-/* Use the Regular weight (400) for blog text content */
-body {
-  font-family: 'Vazirmatn', sans-serif;
-  font-weight: 400;
-}
-
-/* Use the Bold weight (700) for headings and titles */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Vazirmatn', sans-serif;
-  font-weight: 700;
-}

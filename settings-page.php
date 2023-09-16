@@ -3,41 +3,29 @@ if (!defined('ABSPATH')) {
 	exit; // Exit if accessed directly.
 }
 ?>
-	<div class="wrap">
-		<h1>
-			<?php _e("RTL Settings", "better-rtl") ?>
-		</h1>
-		<p>برای دانلود بسته فونت ایران‌سنس می توانید به سایت 
-			<a href="http://fontiran.com" rel="external nofollow" target="_blank">fontiran.com</a>
-			مراجعه نمایید.
-		</p>
-		<form action="options.php" method="POST">
-    <?php settings_fields( 'better-rtl-general' ); ?>
-    <?php do_settings_sections( 'better-rtl-general' ); ?>
-			<table class="form-table">
-				<tbody>
-					<tr>
-						<th scope="row">
-							<label for="iransans-license">کد لایسنس فونت ایران‌سنس</label>
-						</th>
-						<td>
-							<input value="<?php echo esc_attr( get_option('font_iransans_license') ); ?>" type="text" name="font_iransans_license" id="iransans-lisence">
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">
-							<label for="fonts-path">آدرس URL برای پوشه "fonts"</label>
-							<p>این پوشه را می توانید در پوشه WebFonts در بسته دانلودی خود از سایت فونت ایران پیدا کنید.</p>
-						</th>
-						<td>
-							<input value="<?php echo esc_attr( get_option('font_iransans_path') ); ?>" type="text" id="fonts-path" name="font_iransans_path" placeholder="example.com/fonts/">
-						</td>
-					</tr>
+<div class="wrap">
+	<h1>
+		<?php _e("RTL Settings", "better-rtl") ?>
+	</h1>
 
-				</tbody>
-			</table>
+	<div class="brtls-description">
+		<p>این پلاگین به شما کمک می کند تا با تم های معمول و پر طرفدار وردپرس نظیر تم های پیش فرض وردپرس، آسترا، هیومن و برخی تم های دیگر به صورت صحیح تر و زیباتر نمایش داده شوند.</p>
+		<p>از نسخه ۲ به بعد فونت فونت وزیرمتن جایگزین فونت ایران‌سنس شده تا کاربران نیازی به خریداری لایسنس نداشته باشند.<br>
+			فونت وزیرمتن حاصل تلاش و زحمات صابر راستی‌کردار است که در صورت تمایل از <a href="https://rastikerdar.github.io/vazirmatn/fa">صفحه پروژه آن</a> می‌توانید دونیت کنید.</p>
+		<p>لیست پوسته‌های تست شده:</p>
+		<ul>
+			<li>Astra (آسترا)</li>
+			<li>Hueman (هیومن)</li>
+			<li>Twenty Twenty Three (دو هزار و بیست و سه)</li>
+			<li>Twenty Twenty Two (دو هزار و بیست و دو)</li>
+			<li>Twenty Twenty (دو هزار و بیست)</li>
+			<li>Twenty Nineteen (دو هزار و نوزده)</li>
+			<li>Twenty Seventeen (دوهزاروهفده)</li>
+			<li>Twenty Sixteen (دوهزار و شانزده)</li>
+			<li>Twenty Fifteen (دو هزار و پانزده)</li>
+		</ul>
+		<p>پروژه در گیت هاب: <a href="https://github.com/salar90/better-rtl-support">Better RTL Support</a></p>
 
-    		<?php submit_button(); ?>
-		</form>
-		
 	</div>
+
+</div>

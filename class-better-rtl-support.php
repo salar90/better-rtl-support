@@ -34,8 +34,7 @@ class better_RTL_support
 
     function settings_init()
     {
-        register_setting('better-rtl-general', 'font_iransans_path');
-        register_setting('better-rtl-general', 'font_iransans_license');
+        
     }
 
     function settings_page()

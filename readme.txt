@@ -44,6 +44,9 @@ Wordpress plugin for better Right to Left support for widely used themes and plu
 
 == Changelog ==
 
+= 2.0.1 =
+* Fix a bug where fonts did not load on some installs
+
 = 2.0 =
 * Switch from Iransans to Vazirmatn free font
 * Updated Hueman social network display

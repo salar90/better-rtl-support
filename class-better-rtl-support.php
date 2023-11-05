@@ -51,7 +51,8 @@ class better_RTL_support
 
     function enqueue_styles()
     {
+        wp_enqueue_style('brtls-fontface-vazirmatn', plugins_url("font-faces/Vazirmatn.css", __FILE__), array());
+        wp_add_inline_style('brtls-fontface-vazirmatn', ":root{--brtls-font-text: 'Vazirmatn', sans-serif;}");
         wp_enqueue_style('brtls-styles', plugins_url("assets/style.css", __FILE__), array());
-        wp_add_inline_style('brtls-styles', ":root{--brtls-font-text: 'Vazirmatn', sans-serif;}");
     }
 }

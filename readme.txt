@@ -3,7 +3,7 @@ Contributors: salar6990
 Tags: rtl, fonts, farsi, persian, فونت وزیر, فونت, فارسی
 Requires at least: 4.6
 Tested up to: 6.3.1
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -43,6 +43,9 @@ Wordpress plugin for better Right to Left support for widely used themes and plu
 
 
 == Changelog ==
+
+= 2.0.2 =
+* Fix versioning
 
 = 2.0.1 =
 * Fix a bug where fonts did not load on some installs

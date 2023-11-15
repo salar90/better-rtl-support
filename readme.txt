@@ -1,9 +1,9 @@
 === Better RTL Support ===
 Contributors: salar6990
-Tags: rtl, fonts, farsi, persian, فونت وزیر, فونت, فارسی
+Tags: rtl, fonts, farsi, persian
 Requires at least: 4.6
-Tested up to: 6.3.1
-Stable tag: 2.0.2
+Tested up to: 6.4.1
+Stable tag: 2.1.0
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -12,12 +12,12 @@ Wordpress plugin for better Right to Left support for widely used themes and plu
 
 == Description ==
 
-پشتیبانی بهتر از زبان های راست به چپ برای وردپرس
+پشتیبانی بهتر از زبان‌های راست به چپ برای وردپرس
 
-این پلاگین به شما کمک می کند تا با تم های معمول و پر طرفدار وردپرس نظیر تم های پیش فرض وردپرس، آسترا، هیومن و برخی تم های دیگر به صورت صحیح تر و زیباتر نمایش داده شوند.
+این افزونه به شما کمک می کند تا بلاگ یا وب‌سایت وردپرسی شما با پوسته‌های معمول و پر طرفدار وردپرس نظیر پوسته‌های پیش فرض، آسترا، هیومن و برخی پوسته‌های دیگر به صورت صحیح تر و زیباتر نمایش داده شود.
 
-از نسخه ۲ به بعد فونت فونت وزیرمتن جایگزین فونت ایران‌سنس شده تا کاربران نیازی به خریداری لایسنس نداشته باشند.
-فونت وزیرمتن حاصل تلاش و زحمات صابر راستی‌کردار است که در صورت تمایل از [صفحه پروژه آن](https://rastikerdar.github.io/vazirmatn/fa) می‌توانید دونیت کنید.
+از نسخه ۲ به بعد فونت وزیرمتن جایگزین ایران‌سنس شده تا کاربران نیازی به خریداری لایسنس نداشته باشند.
+این فونت حاصل دسترنج زنده‌یاد صابر راستی‌کردار می‌باشد.
 
 لیست پوسته‌های تست شده:
 
@@ -31,11 +31,11 @@ Wordpress plugin for better Right to Left support for widely used themes and plu
 *   Twenty Sixteen (دوهزار و شانزده)
 *   Twenty Fifteen (دو هزار و پانزده)
 
-پروژه در گیت هاب: [Better RTL Support](https://github.com/salar90/better-rtl-support)
+پروژه در گیت‌هاب: [Better RTL Support](https://github.com/salar90/better-rtl-support)
 
 == Installation ==
 
-نحوه نصب
+شیوه نصب
 
 1. افزونه را در پوشه plugins وردپرس قرار دهید.
 1. افزونه را از بخش افزونه ها در داشبورد مدیریت فعال کنید.
@@ -43,6 +43,11 @@ Wordpress plugin for better Right to Left support for widely used themes and plu
 
 
 == Changelog ==
+
+= 2.1.0 =
+* Updated plugin description
+* Test with WP 6.4.1
+* Added Screenshots
 
 = 2.0.2 =
 * Fix versioning

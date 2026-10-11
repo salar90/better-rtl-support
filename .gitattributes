@@ -5,6 +5,8 @@
 *.jpg binary
 *.gif binary
 *.zip binary
+*.woff2 binary
+*.mo binary
 
 # Keep dev-only files out of `git archive` exports.
 /.github        export-ignore

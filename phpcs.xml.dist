@@ -12,17 +12,21 @@
 		<!-- Legacy file/class naming kept for backwards compatibility. -->
 		<exclude name="WordPress.Files.FileName"/>
 		<exclude name="WordPress.NamingConventions.ValidVariableName"/>
-		<exclude name="WordPress.NamingConventions.ValidClassName"/>
 	</rule>
 	<rule ref="WordPress.Security"/>
 	<rule ref="WordPress.WP.I18n">
 		<properties>
-			<property name="text_domain" type="array" value="better-rtl-support"/>
+			<property name="text_domain" type="array">
+				<element value="better-rtl-support"/>
+			</property>
 		</properties>
 	</rule>
 	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
 		<properties>
-			<property name="prefixes" type="array" value="brtls,better_rtl"/>
+			<property name="prefixes" type="array">
+				<element value="brtls"/>
+				<element value="better_rtl"/>
+			</property>
 		</properties>
 		<!-- Views are included from inside a method, so their variables are not globals. -->
 		<exclude-pattern>src/views/*</exclude-pattern>

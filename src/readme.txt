@@ -54,7 +54,7 @@ The CSS variable `--brtls-font-text` holds the font stack, if you want to use it
 2. The same post with and without the plugin.
 3. Settings: Appearance → RTL Settings.
 4. Twenty Sixteen (classic theme) with the font and its RTL list fix.
-5. Hueman with the font and its RTL layout fixes.
+5. Hueman with the font and its RTL layout fixes (lists, related posts).
 
 == Changelog ==
 

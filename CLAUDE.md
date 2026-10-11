@@ -59,8 +59,9 @@ Sibling project: `C:\Users\Salar\Dev\api-stats-project` (wp-api-stats) uses the 
 
 ## Local dev environment (Windows box)
 - Laravel **Herd** serves `C:\Users\Salar\Dev\<folder>` as `<folder>.test` (Herd must be running).
+- The sample post "راهنمای شروع وبلاگ‌نویسی" (ID 72) on the test site is the screenshot content; keep it.
 - Test site: **http://wordpress.test** = `C:\Users\Salar\Dev\wordpress` (WP 7.1.x, Persian `fa_IR` site language, PHP 8.3).
-  Shared with wp-api-stats. Installed themes for testing: twentysixteen (active), hueman, astra, betheme, twentynineteen …
+  Shared with wp-api-stats. Installed themes for testing: hueman (active, 3.7.27), twentysixteen, hueman, astra, betheme, twentynineteen …
   twentytwentyfive (block themes: twentytwentytwo and later).
 - `wordpress\wp-content\plugins\better-rtl-support` is a **junction to this repo's `src/`**, so edits are live.
   Recreate (PowerShell/cmd, not Git Bash): `cmd /c mklink /J C:\Users\Salar\Dev\wordpress\wp-content\plugins\better-rtl-support C:\Users\Salar\Dev\better-rtl-support-project\src`.
@@ -88,7 +89,7 @@ Sibling project: `C:\Users\Salar\Dev\api-stats-project` (wp-api-stats) uses the 
 - Made 2026-10-12 with headless Edge + `puppeteer-core` (npm, in a scratch dir) at 1280px wide, `--disable-lcd-text`,
   on wordpress.test with temporary generic Persian demo posts (blogging tips; no real places or people), then removed.
   1 = Twenty Twenty-Five post, 2 = with/without comparison (same crop of both), 3 = settings page (`#wpbody-content`),
-  4 = Twenty Sixteen, 5 = Hueman post. Themes print PHP notices under WP_DEBUG: strip them from the DOM before capturing.
+  4 = Twenty Sixteen, 5 = Hueman post incl. related posts (1280x1125). Themes print PHP notices under WP_DEBUG: strip them from the DOM before capturing.
   Turn `show_avatars` off while capturing (the admin account's Gravatar is a real photo).
   To check list bullets across themes, compare the first `li`'s right edge with the paragraph's right edge.
   Captions live in readme.txt `== Screenshots ==`.

@@ -66,8 +66,11 @@ The CSS variable `--brtls-font-text` holds the font stack, if you want to use it
 
 == Screenshots ==
 
-1. Twenty Sixteen in Persian with the plugin active (Vazirmatn font).
-2. The same page without the plugin.
+1. A Persian post in Twenty Twenty-Five (block theme) with the Vazirmatn font.
+2. The same post with and without the plugin.
+3. Settings: Appearance → RTL Settings.
+4. Twenty Sixteen (classic theme) with the plugin.
+5. Hueman with the font and its RTL layout fixes.
 
 == Changelog ==
 

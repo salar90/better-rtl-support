@@ -16,7 +16,7 @@ Sibling project: `C:\Users\Salar\Dev\api-stats-project` (wp-api-stats) uses the 
 - SVN credentials are in git-ignored `.env` (`SVN_USERNAME`, `SVN_PASSWORD`; same wp.org account as wp-api-stats). Never
   commit them, never put them in GitHub secrets/workflows, never echo them. Publishing to wordpress.org ships to all
   users: get the user's explicit OK first.
-- wp.org listing images go in `.wordpress-org/` (`icon-128x128.png`, `icon-256x256.png`, `screenshot-N.jpg`, ...).
+- wp.org listing images go in `.wordpress-org/` (`icon-128x128.png`, `icon-256x256.png`, `screenshot-N.png`, ...).
 - History: 1.0–2.1.0 were developed on GitHub `master` and copied to SVN by hand; git `master` == SVN `tags/2.1.0`
   (tag `v2.1.0`). The repo was restructured into `src/` on `main` for 3.0.0. Remote also has an old, merged `dev` branch.
 - Default branch is `main`. Line endings: LF (enforced by `.gitattributes`).
@@ -81,6 +81,13 @@ Sibling project: `C:\Users\Salar\Dev\api-stats-project` (wp-api-stats) uses the 
 4. Switch site to en_US: nothing from the plugin is loaded. Switch back to fa_IR afterwards.
 5. Uninstall (see above) deletes `brtls_settings`.
 
+## wp.org screenshots
+- Made 2026-10-12 with headless Edge + `puppeteer-core` (npm, in a scratch dir) at 1280px wide, `--disable-lcd-text`,
+  on wordpress.test with temporary generic Persian demo posts (blogging tips; no real places or people), then removed.
+  1 = Twenty Twenty-Five post, 2 = with/without comparison (same crop of both), 3 = settings page (`#wpbody-content`),
+  4 = Twenty Sixteen, 5 = Hueman post. Themes print PHP notices under WP_DEBUG: strip them from the DOM before capturing.
+  Captions live in readme.txt `== Screenshots ==`.
+
 ## Checks (run before committing)
 - `composer install` once, then `vendor/bin/phpcs` (WordPress-Extra + Security + PHPCompatibility 7.2+, config in
   `phpcs.xml.dist`). Must be clean. `vendor/bin/phpcbf` auto-fixes style.
@@ -98,4 +105,4 @@ Sibling project: `C:\Users\Salar\Dev\api-stats-project` (wp-api-stats) uses the 
 - 3.0.0 released 2026-10-12 (SVN r3740149, GitHub release v3.0.0); git `main` == SVN `tags/3.0.0`.
 - GitHub default branch is still `master`; switch it to `main` in repo settings, then delete `master` (and old `dev`).
 - Ideas: more theme fixes (Astra, popular Persian themes), Persian-digit Vazirmatn variant, Round-Dots variant,
-  new screenshots (settings page, block theme), banner for wp.org, PHPUnit tests.
+  banner for wp.org, PHPUnit tests.

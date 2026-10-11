@@ -1,0 +1,11 @@
+/*
+ * Better RTL Support: RTL font in the dashboard and the admin bar.
+ * Elements are listed one by one so Dashicons keep their icon font.
+ */
+body.rtl.wp-admin,
+body.rtl.wp-admin :where(h1, h2, h3, h4, h5, h6, input, select, textarea, button, .button, .wp-heading-inline, .page-title-action),
+body.rtl.wp-admin .press-this a.wp-switch-editor,
+body.rtl #wpadminbar,
+body.rtl #wpadminbar :is(a, div, span, input, li):not(.ab-icon):not(.dashicons):not([class*="dashicons-"]) {
+	font-family: var(--brtls-font-text);
+}

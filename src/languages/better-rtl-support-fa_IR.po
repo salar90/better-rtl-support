@@ -1,0 +1,123 @@
+# Copyright (C) 2026 Salar Gholizadeh
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Better RTL Support 3.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/salar90/better-rtl-support/issues\n"
+"Last-Translator: Salar Gholizadeh\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-11T20:19:07+00:00\n"
+"PO-Revision-Date: 2026-10-12T00:00+03:30\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: better-rtl-support\n"
+
+#. Plugin Name of the plugin
+#: better-rtl-support.php
+msgid "Better RTL Support"
+msgstr "پشتیبانی بهتر از راست به چپ"
+
+#. Plugin URI of the plugin
+#: better-rtl-support.php
+msgid "https://github.com/salar90/better-rtl-support"
+msgstr "https://github.com/salar90/better-rtl-support"
+
+#. Description of the plugin
+#: better-rtl-support.php
+msgid "Make themes and plugins more readable in Persian and other RTL languages by changing fonts and tweaking styles."
+msgstr "بهبود خوانایی و نمایش پوسته‌ها و افزونه‌ها در زبان فارسی و دیگر زبان‌های راست به چپ با تغییر فونت‌ها و استایل‌ها."
+
+#. Author of the plugin
+#: better-rtl-support.php
+msgid "Salar Gholizadeh"
+msgstr "سالار قلی‌زاده"
+
+#. Author URI of the plugin
+#: better-rtl-support.php
+msgid "https://salar.one"
+msgstr "https://salar.one"
+
+#: class-better-rtl-support.php:276
+#: class-better-rtl-support.php:277
+#: views/settings-page.php:20
+msgid "RTL Settings"
+msgstr "تنظیمات راست به چپ"
+
+#: class-better-rtl-support.php:321
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: views/settings-page.php:22
+msgid "Better RTL Support makes your site look right in Persian and other right-to-left languages with popular themes: the default WordPress themes, Astra, Hueman and others."
+msgstr "این افزونه کمک می‌کند سایت وردپرسی شما با پوسته‌های پرطرفدار، مانند پوسته‌های پیش‌فرض وردپرس، آسترا، هیومن و دیگر پوسته‌ها، در زبان فارسی و دیگر زبان‌های راست به چپ درست‌تر و زیباتر نمایش داده شود."
+
+#: views/settings-page.php:26
+msgid "Your current language is not right-to-left, so nothing is changed. The settings below apply when the site or your profile uses an RTL language such as Persian."
+msgstr "زبان فعلی راست به چپ نیست، پس چیزی تغییر نمی‌کند. این تنظیمات وقتی اعمال می‌شوند که زبان سایت یا نمایه شما یک زبان راست به چپ مانند فارسی باشد."
+
+#: views/settings-page.php:34
+msgid "Font"
+msgstr "فونت"
+
+#: views/settings-page.php:37
+msgid "Vazirmatn"
+msgstr "وزیرمتن"
+
+#: views/settings-page.php:38
+msgid "Theme default (do not change fonts)"
+msgstr "پیش‌فرض پوسته (فونت‌ها تغییر نکنند)"
+
+#: views/settings-page.php:41
+msgid "Vazirmatn is a free Persian font by the late Saber Rastikerdar, bundled with the plugin (no external requests)."
+msgstr "وزیرمتن فونت فارسی رایگان و حاصل دسترنج زنده‌یاد صابر راستی‌کردار است و همراه افزونه ارائه می‌شود (بدون درخواست به سرورهای خارجی)."
+
+#: views/settings-page.php:43
+msgid "With your block theme, the theme’s fonts are replaced in its font presets, so font choices in the Site Editor still work."
+msgstr "در پوستهٔ بلوکی شما، فونت‌های پیش‌تعریف‌شدهٔ پوسته جایگزین می‌شوند، پس انتخاب فونت در ویرایشگر سایت همچنان کار می‌کند."
+
+#: views/settings-page.php:49
+#: views/settings-page.php:52
+msgid "Use the font in"
+msgstr "استفاده از فونت در"
+
+#: views/settings-page.php:53
+msgid "The site"
+msgstr "سایت"
+
+#: views/settings-page.php:54
+msgid "The block editor (post content)"
+msgstr "ویرایشگر بلوک (محتوای نوشته)"
+
+#: views/settings-page.php:55
+msgid "The dashboard and the admin bar"
+msgstr "پیشخوان و نوار مدیریت"
+
+#: views/settings-page.php:60
+msgid "Theme fixes"
+msgstr "اصلاحات پوسته"
+
+#: views/settings-page.php:62
+msgid "Fix right-to-left layout issues of supported themes"
+msgstr "رفع مشکلات چیدمان راست به چپ در پوسته‌های پشتیبانی‌شده"
+
+#: views/settings-page.php:66
+msgid "Your theme has fixes in this plugin."
+msgstr "این افزونه برای پوستهٔ شما اصلاحاتی دارد."
+
+#: views/settings-page.php:68
+msgid "This plugin has no layout fixes for your theme; only the font is applied."
+msgstr "این افزونه برای پوستهٔ شما اصلاح چیدمانی ندارد و فقط فونت اعمال می‌شود."
+
+#: views/settings-page.php:78
+msgid "Tested themes"
+msgstr "پوسته‌های آزمایش‌شده"
+
+#. translators: %s: link to the GitHub repository
+#: views/settings-page.php:84
+#, php-format
+msgid "Found a problem with your theme? Report it on %s."
+msgstr "با پوستهٔ خود مشکلی دارید؟ آن را در %s گزارش کنید."

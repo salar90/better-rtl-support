@@ -1,17 +1,12 @@
-/* Define the Regular weight (400) for blog text content */
+/*
+ * Vazirmatn v33.003 by Saber Rastikerdar, SIL Open Font License 1.1 (fonts/Vazirmatn/OFL.txt).
+ * One variable font file covers all weights (100-900).
+ */
 @font-face {
-  font-family: 'Vazirmatn';
-  src: url('../fonts/Vazirmatn/Vazirmatn-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Define the Bold weight (700) for headings and titles */
-@font-face {
-  font-family: 'Vazirmatn';
-  src: url('../fonts/Vazirmatn/Vazirmatn-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'Vazirmatn';
+	src: url('../fonts/Vazirmatn/Vazirmatn-Variable.woff2') format('woff2-variations'),
+		url('../fonts/Vazirmatn/Vazirmatn-Variable.woff2') format('woff2');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
 }

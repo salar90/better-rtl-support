@@ -1,0 +1,8 @@
+/* Better RTL Support: RTL font in the block editor content area (classic themes). */
+.editor-styles-wrapper,
+.editor-styles-wrapper :where(h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, figcaption, table, button, input, select, textarea),
+.editor-styles-wrapper .wp-block-post-title,
+.editor-styles-wrapper .wp-element-button,
+.editor-styles-wrapper .wp-block-button__link {
+	font-family: var(--brtls-font-text);
+}

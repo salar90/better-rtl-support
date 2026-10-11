@@ -1,0 +1,63 @@
+/*
+ * Better RTL Support: RTL font for classic themes (block themes get it through theme.json, see block-theme.css).
+ * Loaded only for RTL languages. `html:root body.rtl` keeps the specificity high enough to beat theme rules.
+ * Elements are listed one by one (no `*`) so icon fonts keep working.
+ */
+html:root body.rtl {
+	font-family: var(--brtls-font-text);
+}
+
+html:root body.rtl button,
+html:root body.rtl input,
+html:root body.rtl select,
+html:root body.rtl textarea,
+html:root body.rtl blockquote cite,
+html:root body.rtl blockquote small,
+html:root body.rtl h1,
+html:root body.rtl h2,
+html:root body.rtl h3,
+html:root body.rtl h4,
+html:root body.rtl h5,
+html:root body.rtl h6,
+html:root body.rtl ul,
+html:root body.rtl ol,
+html:root body.rtl .post-password-form label,
+html:root body.rtl .main-navigation .menu-item-description,
+html:root body.rtl .post-navigation .meta-nav,
+html:root body.rtl .post-navigation .post-title,
+html:root body.rtl .pagination,
+html:root body.rtl .image-navigation,
+html:root body.rtl .comment-navigation,
+html:root body.rtl .site-title,
+html:root body.rtl .site-description,
+html:root body.rtl .widget-title,
+html:root body.rtl .widget_calendar caption,
+html:root body.rtl .widget_rss .rss-date,
+html:root body.rtl .widget_rss cite,
+html:root body.rtl .author-heading,
+html:root body.rtl .entry-footer,
+html:root body.rtl .page-title,
+html:root body.rtl .page-links,
+html:root body.rtl .entry-caption,
+html:root body.rtl .entry-title,
+html:root body.rtl .comments-title,
+html:root body.rtl .comment-reply-title,
+html:root body.rtl .comment-reply-link,
+html:root body.rtl .comment-metadata,
+html:root body.rtl .pingback .edit-link,
+html:root body.rtl .comment-list .reply a,
+html:root body.rtl .comment-form label,
+html:root body.rtl .comment-notes,
+html:root body.rtl .comment-awaiting-moderation,
+html:root body.rtl .logged-in-as,
+html:root body.rtl .form-allowed-tags,
+html:root body.rtl .no-comments,
+html:root body.rtl .wp-caption-text,
+html:root body.rtl .entry-content p,
+html:root body.rtl .wp-block-post-title,
+html:root body.rtl .wp-block-site-title,
+html:root body.rtl .wp-element-button,
+html:root body.rtl .wp-block-button__link,
+html:root body.rtl .gallery-caption {
+	font-family: var(--brtls-font-text);
+}

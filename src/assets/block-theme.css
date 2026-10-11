@@ -1,0 +1,7 @@
+/*
+ * Better RTL Support: block themes. The font itself comes from the theme's font presets (filtered theme.json);
+ * this only makes form controls follow it, since browsers don't inherit fonts into them.
+ */
+body.rtl :where(button, input, select, textarea) {
+	font-family: inherit;
+}

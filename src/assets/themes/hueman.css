@@ -1,0 +1,96 @@
+/* Better RTL Support: right-to-left layout fixes for the Hueman theme. Loaded only when Hueman is active. */
+html:root body.rtl.theme-hueman .site-title {
+	float: right;
+}
+html:root body.rtl.theme-hueman .site-description {
+	float: right;
+	margin-left: 0;
+	margin-right: 20px;
+}
+html:root body.rtl.theme-hueman .social-links {
+	float: left;
+}
+html:root body.rtl.theme-hueman .sidebar-top p {
+	float: right;
+}
+html:root body.rtl.theme-hueman .toggle-search,
+html:root body.rtl.theme-hueman .search-expand {
+	right: auto;
+	left: 0;
+}
+html:root body.rtl.theme-hueman .widget > div > ul li a:before,
+html:root body.rtl.theme-hueman .widget > ul li a:before,
+html:root body.rtl.theme-hueman .widget > ul li:before,
+html:root body.rtl.theme-hueman .widget_calendar caption:before {
+	margin-left: 6px;
+	margin-right: 0;
+}
+html:root body.rtl.theme-hueman .widget_meta > ul > li a:before {
+	content: "\f0d9";
+}
+html:root body.rtl.theme-hueman .post-comments i {
+	margin-right: 0;
+	margin-left: 3px;
+}
+html:root body.rtl.theme-hueman .image-caption,
+html:root body.rtl.theme-hueman .page-title i {
+	margin-left: 8px;
+	margin-right: 0;
+}
+html:root body.rtl.theme-hueman .post-tags a {
+	margin: 0 0 2px 5px;
+}
+html:root body.rtl.theme-hueman .comment-tabs li i,
+html:root body.rtl.theme-hueman .commentlist .comment-author,
+html:root body.rtl.theme-hueman .entry.woocommerce div.product .woocommerce-tabs ul.tabs li i {
+	margin-right: 0;
+	margin-left: 6px;
+}
+html:root body.rtl.theme-hueman .comment-tabs li span {
+	margin-right: 8px;
+	margin-left: 0;
+}
+html:root body.rtl.theme-hueman .commentlist .comment-author,
+html:root body.rtl.theme-hueman .commentlist .comment-awaiting-moderation,
+html:root body.rtl.theme-hueman .commentlist .comment-meta {
+	float: right;
+}
+html:root body.rtl.theme-hueman .commentlist li,
+html:root body.rtl.theme-hueman .pinglist li {
+	padding-left: 0;
+	padding-right: 60px;
+}
+html:root body.rtl.theme-hueman .commentlist .avatar {
+	left: auto;
+	right: -60px;
+}
+html:root body.rtl.theme-hueman .commentlist li li.bypostauthor > .comment-body:after,
+html:root body.rtl.theme-hueman .commentlist li li.comment-author-admin > .comment-body:after {
+	left: auto;
+	right: -26px;
+}
+
+@media only screen and (min-width: 720px) {
+	html:root body.rtl.theme-hueman .nav > li > a::after {
+		margin-right: 6px;
+		margin-left: 0;
+		content: "\f0d7";
+	}
+	html:root body.rtl.theme-hueman .nav > li > a:only-child::after,
+	html:root body.rtl.theme-hueman .nav ul li > a:only-child::after {
+		content: "";
+		margin: 0;
+	}
+	html:root body.rtl.theme-hueman .nav ul {
+		left: auto;
+		right: 0;
+	}
+	html:root body.rtl.theme-hueman .nav ul li > a::after {
+		content: "\f0d9";
+		float: left;
+	}
+	html:root body.rtl.theme-hueman .nav ul ul {
+		left: auto;
+		right: 180px;
+	}
+}

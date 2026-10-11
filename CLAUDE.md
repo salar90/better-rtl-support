@@ -37,7 +37,9 @@ Sibling project: `C:\Users\Salar\Dev\api-stats-project` (wp-api-stats) uses the 
   - Admin: `admin_enqueue_scripts` → `assets/admin.css`; also on the front for the admin bar.
   - Theme fixes: `THEME_FIXES` lists templates with `assets/themes/<template>.css` (`hueman`, `twentyseventeen`,
     `twentysixteen`), loaded only for that theme. Twenty Sixteen/Seventeen hang list markers outside the text column by
-    design and Hueman never mirrors its list margin, so in RTL bullets stuck out on the right; the fixes keep them inside. Body class `theme-<template>` is added for them.
+    design and Hueman never mirrors its list margin, so in RTL bullets stuck out on the right; the fixes keep them inside.
+    Hueman ships no RTL stylesheet at all: hueman.css mirrors its LTR rules (header, widgets, nav, comments, lists,
+    `.post-list` grid, related posts, `.heading i` icon). Checked against Hueman 3.7.27 (`assets/front/css/dev-common.css`). Body class `theme-<template>` is added for them.
   - `--brtls-font-text` CSS variable is printed inline after `font-faces/Vazirmatn.css` (handle `brtls-fontface-vazirmatn`).
 - `views/settings-page.php`: Appearance → RTL Settings (`themes.php?page=rtl-settings`). Lists tested themes, says other
   themes may work too, and links to the wp.org support forum (https://wordpress.org/support/plugin/better-rtl-support/)

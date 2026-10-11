@@ -60,6 +60,7 @@ The CSS variable `--brtls-font-text` holds the font stack, if you want to use it
 
 = 3.0.1 =
 * Fix: list bullets stuck out of the text column on the right in Hueman, Twenty Seventeen and Twenty Sixteen.
+* Hueman: the post grid, related posts and heading icons are mirrored for right-to-left (tested with Hueman 3.7.27).
 * The readme is now in English; the Persian version comes from translate.wordpress.org.
 
 = 3.0.0 =

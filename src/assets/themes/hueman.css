@@ -154,3 +154,13 @@ html:root body.rtl.theme-hueman .heading .fa-hand-point-right {
 	display: inline-block;
 	transform: scaleX(-1);
 }
+
+/* Post meta (category and date in the post grid and related posts). */
+html:root body.rtl.theme-hueman .post-meta .post-category {
+	float: right;
+	margin-right: 0;
+	margin-left: 6px;
+}
+html:root body.rtl.theme-hueman .post-meta .post-date {
+	float: right;
+}

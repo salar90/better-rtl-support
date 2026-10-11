@@ -1,2 +1,21 @@
-.vscode
-svn
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Build output (see bin/build.sh)
+/dist/
+
+# Local SVN working copy, if you ever check one out by hand
+/svn/
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

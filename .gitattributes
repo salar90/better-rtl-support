@@ -16,3 +16,4 @@
 /.gitignore     export-ignore
 /CLAUDE.md      export-ignore
 /README.md      export-ignore
+/translations    export-ignore

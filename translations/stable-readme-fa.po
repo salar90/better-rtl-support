@@ -1,0 +1,255 @@
+# Translation of Plugins - Better RTL Support - Stable Readme (latest release) in Persian
+# This file is distributed under the same license as the Plugins - Better RTL Support - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - Better RTL Support - Stable Readme (latest release)\n"
+
+#. Short description.
+#, gp-priority: high
+msgid "Better right-to-left support for popular themes: the free Vazirmatn Persian font and RTL layout fixes."
+msgstr "پشتیبانی بهتر از راست به چپ در پوسته‌های پرطرفدار: فونت فارسی رایگان وزیرمتن و رفع مشکلات چیدمان راست به چپ."
+
+#. Plugin name.
+#, gp-priority: high
+msgid "Better RTL Support"
+msgstr "پشتیبانی بهتر از راست به چپ"
+
+#. Found in description list item.
+msgid "RTL layout fixes for Hueman, Twenty Seventeen and Twenty Sixteen."
+msgstr "رفع مشکلات چیدمان راست به چپ در پوسته‌های Hueman، Twenty Seventeen و Twenty Sixteen."
+
+#. Found in description list item.
+msgid "Bundled Vazirmatn font, a free Persian font by the late Saber Rastikerdar. One variable font file covers all weights, with no requests to external servers."
+msgstr "فونت وزیرمتن همراه افزونه؛ فونت فارسی رایگان و حاصل دسترنج زنده‌یاد صابر راستی‌کردار. یک فایل فونت متغیر همهٔ وزن‌ها را پوشش می‌دهد، بدون هیچ درخواستی به سرورهای خارجی."
+
+#. Screenshot description.
+msgid "Hueman with the font and its RTL layout fixes (lists, related posts)."
+msgstr "پوستهٔ Hueman با فونت و اصلاحات چیدمان راست به چپ (فهرست‌ها، مطالب مرتبط)."
+
+#. Screenshot description.
+msgid "Twenty Sixteen (classic theme) with the font and its RTL list fix."
+msgstr "پوستهٔ کلاسیک Twenty Sixteen با فونت و اصلاح فهرست‌ها برای راست به چپ."
+
+#. Screenshot description.
+msgid "The same post with and without the plugin."
+msgstr "همان نوشته با افزونه و بدون آن."
+
+#. Screenshot description.
+msgid "A Persian post in Twenty Twenty-Five (block theme) with the Vazirmatn font."
+msgstr "یک نوشتهٔ فارسی در پوستهٔ بلوکی Twenty Twenty-Five با فونت وزیرمتن."
+
+#. Found in faq paragraph.
+msgid "The CSS variable <code>--brtls-font-text</code> holds the font stack, if you want to use it in your own styles."
+msgstr "متغیر CSS <code>--brtls-font-text</code> فونت را نگه می‌دارد، اگر بخواهید در استایل‌های خودتان از آن استفاده کنید."
+
+#. Found in faq paragraph.
+msgid "Use the <code>brtls_font_enabled</code> filter. It receives the current value and the context (<code>site</code>, <code>editor</code> or <code>admin</code>):"
+msgstr "از فیلتر <code>brtls_font_enabled</code> استفاده کنید. این فیلتر مقدار فعلی و زمینه (<code>site</code>، <code>editor</code> یا <code>admin</code>) را دریافت می‌کند:"
+
+#. Found in faq paragraph.
+msgid "Yes. Choose \"Theme default\" to keep your theme's fonts, or set your own font stack in code (load its @font-face yourself):"
+msgstr "بله. «پیش‌فرض پوسته» را انتخاب کنید تا فونت‌های پوسته حفظ شوند، یا فونت دلخواه خود را با کد تعیین کنید (@font-face آن را خودتان بارگذاری کنید):"
+
+#. Found in faq paragraph.
+msgid "The plugin only works when the site language (Settings → General) or, in the dashboard, your profile language is a right-to-left language such as Persian or Arabic."
+msgstr "افزونه فقط وقتی کار می‌کند که زبان سایت (تنظیمات ← عمومی) یا در پیشخوان، زبان نمایهٔ شما یک زبان راست به چپ مانند فارسی یا عربی باشد."
+
+#. Found in faq header.
+msgid "Can I turn the font off for some pages?"
+msgstr "می‌توانم فونت را در برخی برگه‌ها غیرفعال کنم؟"
+
+#. Found in faq header.
+msgid "Can I use another font?"
+msgstr "می‌توانم از فونت دیگری استفاده کنم؟"
+
+#. Found in faq header.
+msgid "Nothing changed on my site"
+msgstr "چیزی در سایتم تغییر نکرد"
+
+#. Found in installation list item.
+msgid "Go to Appearance → RTL Settings to choose where the font is used."
+msgstr "به نمایش ← تنظیمات راست به چپ بروید و انتخاب کنید فونت کجا استفاده شود."
+
+#. Found in installation list item.
+msgid "Install and activate the plugin from Plugins → Add New, or upload it to <code>wp-content/plugins</code>."
+msgstr "افزونه را از افزونه‌ها ← افزودن نصب و فعال کنید، یا آن را در <code>wp-content/plugins</code> بارگذاری کنید."
+
+#. Found in description paragraph.
+msgid "Found a problem with your theme? Report it in the <a href=\"https://wordpress.org/support/plugin/better-rtl-support/\">support forum</a>. Development happens on GitHub: <a href=\"https://github.com/salar90/better-rtl-support\">salar90/better-rtl-support</a>."
+msgstr "با پوستهٔ خود مشکلی دارید؟ آن را در <a href=\"https://wordpress.org/support/plugin/better-rtl-support/\">انجمن پشتیبانی</a> گزارش کنید. توسعهٔ افزونه در گیت‌هاب انجام می‌شود: <a href=\"https://github.com/salar90/better-rtl-support\">salar90/better-rtl-support</a>."
+
+#. Found in description paragraph.
+msgid "Tested themes: Astra, Hueman, Twenty Twenty-Five, Twenty Twenty-Four, Twenty Twenty-Three, Twenty Twenty-Two, Twenty Twenty-One, Twenty Twenty, Twenty Nineteen, Twenty Seventeen, Twenty Sixteen. The plugin may also work well with other, untested themes."
+msgstr "پوسته‌های آزمایش‌شده: Astra، Hueman، Twenty Twenty-Five، Twenty Twenty-Four، Twenty Twenty-Three، Twenty Twenty-Two، Twenty Twenty-One، Twenty Twenty، Twenty Nineteen، Twenty Seventeen و Twenty Sixteen. افزونه احتمالاً با پوسته‌های دیگری که آزمایش نشده‌اند هم به خوبی کار می‌کند."
+
+#. Found in description paragraph.
+msgid "Settings: Appearance → RTL Settings."
+msgstr "تنظیمات: نمایش ← تنظیمات راست به چپ."
+
+#. Found in description paragraph.
+msgid "Makes WordPress sites in Persian and other right-to-left languages look right with popular themes."
+msgstr "سایت‌های وردپرسی به زبان فارسی و دیگر زبان‌های راست به چپ را با پوسته‌های پرطرفدار درست و زیبا نمایش می‌دهد."
+
+#. Found in description list item.
+msgid "Does nothing unless the current language is right-to-left."
+msgstr "تا وقتی زبان فعلی راست به چپ نباشد، هیچ کاری انجام نمی‌دهد."
+
+#. Found in description list item.
+msgid "Choose where the font is used: the site, the block editor, the dashboard and admin bar."
+msgstr "انتخاب کنید فونت کجا استفاده شود: سایت، ویرایشگر بلوک، پیشخوان و نوار مدیریت."
+
+#. Found in description list item.
+msgid "Block themes (Twenty Twenty-Five, Twenty Twenty-Four, ...): the theme's font presets are switched to Vazirmatn, so font choices in the Site Editor keep working. Monospace fonts are left alone."
+msgstr "پوسته‌های بلوکی (Twenty Twenty-Five، Twenty Twenty-Four و ...): فونت‌های پیش‌تعریف‌شدهٔ پوسته به وزیرمتن تغییر می‌کنند، پس انتخاب فونت در ویرایشگر سایت همچنان کار می‌کند. فونت‌های هم‌عرض (Monospace) تغییر نمی‌کنند."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "The readme is now in English; the Persian version comes from translate.wordpress.org."
+msgstr "توضیحات افزونه اکنون به انگلیسی است و نسخهٔ فارسی از translate.wordpress.org می‌آید."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Hueman: the post grid, post meta (category and date), related posts and heading icons are mirrored for right-to-left (tested with Hueman 3.7.27)."
+msgstr "Hueman: شبکهٔ نوشته‌ها، اطلاعات نوشته (دسته و تاریخ)، مطالب مرتبط و آیکون عنوان‌ها برای راست به چپ قرینه شدند (آزمایش‌شده با Hueman 3.7.27)."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fix: list bullets stuck out of the text column on the right in Hueman, Twenty Seventeen and Twenty Sixteen."
+msgstr "رفع اشکال: نشانه‌های فهرست در Hueman، Twenty Seventeen و Twenty Sixteen از سمت راست بیرون از ستون متن قرار می‌گرفتند."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Settings are removed when the plugin is deleted."
+msgstr "با حذف افزونه، تنظیمات آن هم پاک می‌شود."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added the Vazirmatn license (SIL Open Font License)."
+msgstr "مجوز فونت وزیرمتن (SIL Open Font License) اضافه شد."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Changed: requires WordPress 5.3 and PHP 7.2."
+msgstr "تغییر: به وردپرس ۵٫۳ و PHP 7.2 نیاز دارد."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Changed: text domain is now <code>better-rtl-support</code>, so translations from translate.wordpress.org work. Persian translation included."
+msgstr "تغییر: دامنهٔ ترجمه اکنون <code>better-rtl-support</code> است، پس ترجمه‌های translate.wordpress.org کار می‌کنند. ترجمهٔ فارسی همراه افزونه است."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Improved: stylesheets are versioned, so browsers pick up changes after an update."
+msgstr "بهبود: فایل‌های استایل نسخه‌دار شده‌اند، پس مرورگرها پس از به‌روزرسانی تغییرات را دریافت می‌کنند."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Improved: nothing is loaded on sites in left-to-right languages, and theme fixes load only for their theme."
+msgstr "بهبود: در سایت‌هایی با زبان چپ به راست چیزی بارگذاری نمی‌شود و اصلاحات هر پوسته فقط برای همان پوسته بارگذاری می‌شود."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Improved: one variable Vazirmatn file covers every weight (100-900); the plugin is about 470 KB smaller and light, medium and semibold text no longer uses fake weights."
+msgstr "بهبود: یک فایل متغیر وزیرمتن همهٔ وزن‌ها (۱۰۰ تا ۹۰۰) را پوشش می‌دهد؛ افزونه حدود ۴۷۰ کیلوبایت کوچک‌تر شده و متن‌های نازک، متوسط و نیمه‌ضخیم دیگر وزن ساختگی ندارند."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "New: <code>brtls_font_stack</code> and <code>brtls_font_enabled</code> filters."
+msgstr "جدید: فیلترهای <code>brtls_font_stack</code> و <code>brtls_font_enabled</code>."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "New: the font in the block editor and, optionally, in the dashboard and admin bar."
+msgstr "جدید: فونت در ویرایشگر بلوک و در صورت تمایل در پیشخوان و نوار مدیریت."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "New: block theme support. The theme's font presets switch to Vazirmatn, so the Site Editor and per-block font choices keep working."
+msgstr "جدید: پشتیبانی از پوسته‌های بلوکی. فونت‌های پیش‌تعریف‌شدهٔ پوسته به وزیرمتن تغییر می‌کنند، پس ویرایشگر سایت و انتخاب فونت در هر بلوک همچنان کار می‌کند."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "New: settings page (Appearance → RTL Settings): turn the font off, and choose to use it in the site, the block editor and the dashboard."
+msgstr "جدید: برگهٔ تنظیمات (نمایش ← تنظیمات راست به چپ): خاموش کردن فونت و انتخاب استفاده از آن در سایت، ویرایشگر بلوک و پیشخوان."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added Screenshots"
+msgstr "افزودن تصاویر"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Test with WP 6.4.1"
+msgstr "آزمایش با وردپرس 6.4.1"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated plugin description"
+msgstr "به‌روزرسانی توضیحات افزونه"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fix versioning"
+msgstr "اصلاح شماره نسخه"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "checked compatibility with WordPress 6.3.1"
+msgstr "بررسی سازگاری با وردپرس 6.3.1"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "fixed some issues with default themes"
+msgstr "رفع چند مشکل در پوسته‌های پیش‌فرض"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Updated Hueman social network display"
+msgstr "به‌روزرسانی نمایش شبکه‌های اجتماعی در Hueman"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Switch from Iransans to Vazirmatn free font"
+msgstr "جایگزینی ایران‌سنس با فونت رایگان وزیرمتن"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Fix a bug where fonts did not load on some installs"
+msgstr "رفع اشکال بارگذاری نشدن فونت‌ها در برخی سایت‌ها"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Added Translation files"
+msgstr "افزودن فایل‌های ترجمه"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Hueman Search position"
+msgstr "اصلاح جایگاه جستجو در Hueman"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "fix comment reply link style"
+msgstr "اصلاح ظاهر پیوند پاسخ به دیدگاه"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "tested with WordPress 5.2.2"
+msgstr "آزمایش با وردپرس 5.2.2"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "Hueman Nav menu"
+msgstr "اصلاح فهرست ناوبری در Hueman"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "first release."
+msgstr "نخستین انتشار."

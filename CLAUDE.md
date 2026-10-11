@@ -95,7 +95,7 @@ Sibling project: `C:\Users\Salar\Dev\api-stats-project` (wp-api-stats) uses the 
 - Bump `BRTLS_VERSION`, header `Version:` and readme `Stable tag:` together.
 
 ## Known issues / TODO
-- 3.0.0 is not released yet (as of 2026-10-12): needs the user's OK, then tag + `bin/deploy.sh --commit`.
+- 3.0.0 released 2026-10-12 (SVN r3740149, GitHub release v3.0.0); git `main` == SVN `tags/3.0.0`.
 - GitHub default branch is still `master`; switch it to `main` in repo settings, then delete `master` (and old `dev`).
 - Ideas: more theme fixes (Astra, popular Persian themes), Persian-digit Vazirmatn variant, Round-Dots variant,
   new screenshots (settings page, block theme), banner for wp.org, PHPUnit tests.

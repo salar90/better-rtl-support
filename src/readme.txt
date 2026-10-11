@@ -22,6 +22,8 @@ Better right-to-left support for popular themes: the free Vazirmatn Persian font
 *   رفع مشکلات چیدمان راست به چپ پوسته هیومن.
 *   فقط وقتی زبان سایت راست به چپ است کاری انجام می‌دهد.
 
+افزونه با پوسته‌های بالا آزمایش شده است، اما احتمالاً با پوسته‌های دیگری که آزمایش نشده‌اند هم به خوبی کار می‌کند.
+
 تنظیمات: نمایش ← تنظیمات راست به چپ
 
 **English**
@@ -36,9 +38,9 @@ Makes WordPress sites in Persian and other right-to-left languages look right wi
 
 Settings: Appearance → RTL Settings.
 
-Tested themes: Astra, Hueman, Twenty Twenty-Five, Twenty Twenty-Four, Twenty Twenty-Three, Twenty Twenty-Two, Twenty Twenty-One, Twenty Twenty, Twenty Nineteen, Twenty Seventeen, Twenty Sixteen.
+Tested themes: Astra, Hueman, Twenty Twenty-Five, Twenty Twenty-Four, Twenty Twenty-Three, Twenty Twenty-Two, Twenty Twenty-One, Twenty Twenty, Twenty Nineteen, Twenty Seventeen, Twenty Sixteen. The plugin may also work well with other, untested themes.
 
-Development happens on GitHub: [salar90/better-rtl-support](https://github.com/salar90/better-rtl-support). Bug reports and theme fixes are welcome.
+Found a problem with your theme? Report it in the [support forum](https://wordpress.org/support/plugin/better-rtl-support/). Development happens on GitHub: [salar90/better-rtl-support](https://github.com/salar90/better-rtl-support).
 
 == Installation ==
 

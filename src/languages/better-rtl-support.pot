@@ -3,13 +3,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Better RTL Support 3.0.0\n"
-"Report-Msgid-Bugs-To: https://github.com/salar90/better-rtl-support/issues\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/better-rtl-support/\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-11T20:19:07+00:00\n"
+"POT-Creation-Date: 2026-10-11T21:04:50+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: better-rtl-support\n"
@@ -114,8 +114,16 @@ msgstr ""
 msgid "Tested themes"
 msgstr ""
 
-#. translators: %s: link to the GitHub repository
-#: views/settings-page.php:84
+#: views/settings-page.php:80
+msgid "The plugin may also work well with other themes that are not in this list."
+msgstr ""
+
+#. translators: %s: link to the plugin's support forum on wordpress.org
+#: views/settings-page.php:85
 #, php-format
-msgid "Found a problem with your theme? Report it on %s."
+msgid "Found a problem with your theme? Report it in the %s."
+msgstr ""
+
+#: views/settings-page.php:86
+msgid "support forum"
 msgstr ""

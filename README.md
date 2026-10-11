@@ -2,7 +2,8 @@
 
 WordPress plugin for better right-to-left support in popular themes: the bundled, free Vazirmatn Persian font
 (classic and block themes, block editor, optionally the dashboard) and RTL layout fixes for themes like Hueman.
-Settings under **Appearance → RTL Settings**.
+Settings under **Appearance → RTL Settings**. Tested with Astra, Hueman and the default themes; it may also work
+well with other, untested themes. Support: https://wordpress.org/support/plugin/better-rtl-support/
 
 پشتیبانی بهتر از زبان‌های راست به چپ برای وردپرس: فونت وزیرمتن (حاصل دسترنج زنده‌یاد صابر راستی‌کردار) و رفع مشکلات چیدمان پوسته‌ها.
 

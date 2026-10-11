@@ -77,12 +77,13 @@ $option = Better_RTL_Support::OPTION;
 
 	<h2><?php esc_html_e( 'Tested themes', 'better-rtl-support' ); ?></h2>
 	<p>Astra, Hueman, Twenty Twenty-Five, Twenty Twenty-Four, Twenty Twenty-Three, Twenty Twenty-Two, Twenty Twenty-One, Twenty Twenty, Twenty Nineteen, Twenty Seventeen, Twenty Sixteen.</p>
+	<p><?php esc_html_e( 'The plugin may also work well with other themes that are not in this list.', 'better-rtl-support' ); ?></p>
 	<p>
 		<?php
 		printf(
-			/* translators: %s: link to the GitHub repository */
-			esc_html__( 'Found a problem with your theme? Report it on %s.', 'better-rtl-support' ),
-			'<a href="https://github.com/salar90/better-rtl-support/issues">GitHub</a>'
+			/* translators: %s: link to the plugin's support forum on wordpress.org */
+			esc_html__( 'Found a problem with your theme? Report it in the %s.', 'better-rtl-support' ),
+			'<a href="https://wordpress.org/support/plugin/better-rtl-support/">' . esc_html__( 'support forum', 'better-rtl-support' ) . '</a>'
 		);
 		?>
 	</p>

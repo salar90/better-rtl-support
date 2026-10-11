@@ -38,7 +38,9 @@ Sibling project: `C:\Users\Salar\Dev\api-stats-project` (wp-api-stats) uses the 
   - Theme fixes: `THEME_FIXES` lists templates with `assets/themes/<template>.css` (only `hueman`), loaded only for that
     theme. Body class `theme-<template>` is added for them.
   - `--brtls-font-text` CSS variable is printed inline after `font-faces/Vazirmatn.css` (handle `brtls-fontface-vazirmatn`).
-- `views/settings-page.php`: Appearance → RTL Settings (`themes.php?page=rtl-settings`).
+- `views/settings-page.php`: Appearance → RTL Settings (`themes.php?page=rtl-settings`). Lists tested themes, says other
+  themes may work too, and links to the wp.org support forum (https://wordpress.org/support/plugin/better-rtl-support/)
+  for problem reports. Keep that wording in sync with readme.txt.
 - `uninstall.php`: deletes `brtls_settings`.
 - `fonts/Vazirmatn/Vazirmatn-Variable.woff2`: upstream Vazirmatn v33.003 `Vazirmatn[wght].woff2` (latest release as of
   2026-10), weights 100–900, plus `OFL.txt`. Upstream: https://github.com/rastikerdar/vazirmatn/releases.

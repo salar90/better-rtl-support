@@ -1,0 +1,16 @@
+/*
+ * Better RTL Support: right-to-left fixes for Twenty Sixteen. Loaded only when Twenty Sixteen is active.
+ * On wide screens the theme hangs list markers outside the text column; in RTL that looks broken, so keep them inside.
+ */
+@media screen and (min-width: 61.5625em) {
+	html:root body.rtl.theme-twentysixteen .entry-content ul,
+	html:root body.rtl.theme-twentysixteen .entry-summary ul,
+	html:root body.rtl.theme-twentysixteen .comment-content ul {
+		margin-right: 1.25em;
+	}
+	html:root body.rtl.theme-twentysixteen .entry-content ol,
+	html:root body.rtl.theme-twentysixteen .entry-summary ol,
+	html:root body.rtl.theme-twentysixteen .comment-content ol {
+		margin-right: 1.5em;
+	}
+}

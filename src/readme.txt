@@ -3,7 +3,7 @@ Contributors: salar6990
 Tags: rtl, persian, farsi, fonts, vazirmatn
 Requires at least: 5.3
 Tested up to: 7.1
-Stable tag: 3.0.0
+Stable tag: 3.0.1
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -12,28 +12,12 @@ Better right-to-left support for popular themes: the free Vazirmatn Persian font
 
 == Description ==
 
-پشتیبانی بهتر از زبان‌های راست به چپ برای وردپرس
-
-این افزونه کمک می‌کند سایت وردپرسی شما با پوسته‌های پرطرفدار، مانند پوسته‌های پیش‌فرض وردپرس، آسترا، هیومن و دیگر پوسته‌ها، در زبان فارسی و دیگر زبان‌های راست به چپ درست‌تر و زیباتر نمایش داده شود.
-
-*   فونت وزیرمتن، همراه افزونه و بدون درخواست به سرورهای خارجی. این فونت حاصل دسترنج زنده‌یاد صابر راستی‌کردار است.
-*   سازگار با پوسته‌های بلوکی (مانند دو هزار و بیست و پنج): فونت‌های پوسته جایگزین می‌شوند و انتخاب فونت در ویرایشگر سایت همچنان کار می‌کند.
-*   فونت در سایت، ویرایشگر بلوک و (به انتخاب شما) پیشخوان.
-*   رفع مشکلات چیدمان راست به چپ پوسته هیومن.
-*   فقط وقتی زبان سایت راست به چپ است کاری انجام می‌دهد.
-
-افزونه با پوسته‌های بالا آزمایش شده است، اما احتمالاً با پوسته‌های دیگری که آزمایش نشده‌اند هم به خوبی کار می‌کند.
-
-تنظیمات: نمایش ← تنظیمات راست به چپ
-
-**English**
-
 Makes WordPress sites in Persian and other right-to-left languages look right with popular themes.
 
-*   Bundled Vazirmatn font (one variable font file, all weights; no requests to external servers).
+*   Bundled Vazirmatn font, a free Persian font by the late Saber Rastikerdar. One variable font file covers all weights, with no requests to external servers.
 *   Block themes (Twenty Twenty-Five, Twenty Twenty-Four, ...): the theme's font presets are switched to Vazirmatn, so font choices in the Site Editor keep working. Monospace fonts are left alone.
 *   Choose where the font is used: the site, the block editor, the dashboard and admin bar.
-*   RTL layout fixes for the Hueman theme.
+*   RTL layout fixes for Hueman, Twenty Seventeen and Twenty Sixteen.
 *   Does nothing unless the current language is right-to-left.
 
 Settings: Appearance → RTL Settings.
@@ -69,10 +53,14 @@ The CSS variable `--brtls-font-text` holds the font stack, if you want to use it
 1. A Persian post in Twenty Twenty-Five (block theme) with the Vazirmatn font.
 2. The same post with and without the plugin.
 3. Settings: Appearance → RTL Settings.
-4. Twenty Sixteen (classic theme) with the plugin.
+4. Twenty Sixteen (classic theme) with the font and its RTL list fix.
 5. Hueman with the font and its RTL layout fixes.
 
 == Changelog ==
+
+= 3.0.1 =
+* Fix: list bullets stuck out of the text column on the right in Hueman, Twenty Seventeen and Twenty Sixteen.
+* The readme is now in English; the Persian version comes from translate.wordpress.org.
 
 = 3.0.0 =
 * New: settings page (Appearance → RTL Settings): turn the font off, and choose to use it in the site, the block editor and the dashboard.

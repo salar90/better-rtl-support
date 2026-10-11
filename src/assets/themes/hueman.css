@@ -94,3 +94,16 @@ html:root body.rtl.theme-hueman .commentlist li li.comment-author-admin > .comme
 		right: 180px;
 	}
 }
+
+/* Hueman indents lists on the left only, so RTL bullets hang outside the text column. */
+html:root body.rtl.theme-hueman .entry ol:not(.wp-block-post-template):not(.wp-block-query-loop),
+html:root body.rtl.theme-hueman .entry ul:not(.wp-block-post-template):not(.wp-block-query-loop) {
+	margin-left: 0;
+	margin-right: 30px;
+}
+html:root body.rtl.theme-hueman .entry ol ol,
+html:root body.rtl.theme-hueman .entry ol ul,
+html:root body.rtl.theme-hueman .entry ul ul,
+html:root body.rtl.theme-hueman .entry ul ol {
+	margin-right: 30px;
+}

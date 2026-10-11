@@ -1,0 +1,10 @@
+/*
+ * Better RTL Support: right-to-left fixes for Twenty Seventeen. Loaded only when Twenty Seventeen is active.
+ * The theme hangs list markers outside the text column; in RTL that looks broken, so keep them inside.
+ */
+html:root body.rtl.theme-twentyseventeen .entry-content ul,
+html:root body.rtl.theme-twentyseventeen .entry-content ol,
+html:root body.rtl.theme-twentyseventeen .comment-content ul,
+html:root body.rtl.theme-twentyseventeen .comment-content ol {
+	margin-right: 1.5em;
+}

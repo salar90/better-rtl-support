@@ -22,7 +22,7 @@ class Better_RTL_Support {
 	/**
 	 * Templates (parent theme slugs) that have a stylesheet in assets/themes/.
 	 */
-	const THEME_FIXES = array( 'hueman' );
+	const THEME_FIXES = array( 'hueman', 'twentyseventeen', 'twentysixteen' );
 
 	/**
 	 * Constructor.

@@ -3,7 +3,7 @@
  * Plugin Name:       Better RTL Support
  * Plugin URI:        https://github.com/salar90/better-rtl-support
  * Description:       Make themes and plugins more readable in Persian and other RTL languages by changing fonts and tweaking styles.
- * Version:           3.0.0
+ * Version:           3.0.1
  * Requires at least: 5.3
  * Requires PHP:      7.2
  * Author:            Salar Gholizadeh
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'BRTLS_VERSION', '3.0.0' );
+define( 'BRTLS_VERSION', '3.0.1' );
 define( 'BRTLS_FILE', __FILE__ );
 
 require_once __DIR__ . '/class-better-rtl-support.php';

@@ -35,8 +35,9 @@ Sibling project: `C:\Users\Salar\Dev\api-stats-project` (wp-api-stats) uses the 
     `assets/block-theme.css` (form controls inherit). WP 6.6+ returns presets keyed by origin (`fontFamilies.theme`).
   - Editor: `enqueue_block_assets` (admin only) → font + `assets/editor.css` (classic themes; block themes get theme.json).
   - Admin: `admin_enqueue_scripts` → `assets/admin.css`; also on the front for the admin bar.
-  - Theme fixes: `THEME_FIXES` lists templates with `assets/themes/<template>.css` (only `hueman`), loaded only for that
-    theme. Body class `theme-<template>` is added for them.
+  - Theme fixes: `THEME_FIXES` lists templates with `assets/themes/<template>.css` (`hueman`, `twentyseventeen`,
+    `twentysixteen`), loaded only for that theme. Twenty Sixteen/Seventeen hang list markers outside the text column by
+    design and Hueman never mirrors its list margin, so in RTL bullets stuck out on the right; the fixes keep them inside. Body class `theme-<template>` is added for them.
   - `--brtls-font-text` CSS variable is printed inline after `font-faces/Vazirmatn.css` (handle `brtls-fontface-vazirmatn`).
 - `views/settings-page.php`: Appearance → RTL Settings (`themes.php?page=rtl-settings`). Lists tested themes, says other
   themes may work too, and links to the wp.org support forum (https://wordpress.org/support/plugin/better-rtl-support/)
@@ -86,6 +87,8 @@ Sibling project: `C:\Users\Salar\Dev\api-stats-project` (wp-api-stats) uses the 
   on wordpress.test with temporary generic Persian demo posts (blogging tips; no real places or people), then removed.
   1 = Twenty Twenty-Five post, 2 = with/without comparison (same crop of both), 3 = settings page (`#wpbody-content`),
   4 = Twenty Sixteen, 5 = Hueman post. Themes print PHP notices under WP_DEBUG: strip them from the DOM before capturing.
+  Turn `show_avatars` off while capturing (the admin account's Gravatar is a real photo).
+  To check list bullets across themes, compare the first `li`'s right edge with the paragraph's right edge.
   Captions live in readme.txt `== Screenshots ==`.
 
 ## Checks (run before committing)
@@ -102,6 +105,9 @@ Sibling project: `C:\Users\Salar\Dev\api-stats-project` (wp-api-stats) uses the 
 - Bump `BRTLS_VERSION`, header `Version:` and readme `Stable tag:` together.
 
 ## Known issues / TODO
+- readme.txt is English-only on purpose: Persian comes from translate.wordpress.org (`stable-readme` and `stable`
+  projects, locale `fa`). The Persian banner on wordpress.org/plugins goes away once those are approved.
+- BeTheme (commercial, not in the tested list) has the same unmirrored list margin as Hueman.
 - 3.0.0 released 2026-10-12 (SVN r3740149, GitHub release v3.0.0); git `main` == SVN `tags/3.0.0`.
 - GitHub default branch is still `master`; switch it to `main` in repo settings, then delete `master` (and old `dev`).
 - Ideas: more theme fixes (Astra, popular Persian themes), Persian-digit Vazirmatn variant, Round-Dots variant,
